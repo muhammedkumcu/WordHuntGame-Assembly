@@ -52,7 +52,7 @@ input_al:
     int 21h              
 
 kelime_kontrol proc  
-    mov bx, offset kelimeler          ; kelimeler dizisinin baslangicç adresini bx'e yukle
+    mov bx, offset kelimeler          ; kelimeler dizisinin baslangicÃ§ adresini bx'e yukle
     mov di, offset input + 2          ; input'un parametrelerden sonra gelen baslangic adresini di'ye yukle
     mov cx, offset kelimeler          ; kelimenin uzunlugunu tutacak register
     
@@ -81,9 +81,9 @@ kelime_kontrol proc
         je oyun
         
         cmp al, dl                    ; harfleri karsilastir 
-        jne sonraki_kelime            ; eger farkliysa sonraki kelimeye gecç
+        jne sonraki_kelime            ; eger farkliysa sonraki kelimeye gecÃ§
         inc bx                        ; kelimenin bir sonraki harfine gec
-        inc di                        ; inputun bir sonraki harfine gecç
+        inc di                        ; inputun bir sonraki harfine gecÃ§
         jmp kelime_dongusu            ; donguye devam et
     sonraki_kelime:
         mov bx, cx                    ; bir sonraki kelimeden devam et
