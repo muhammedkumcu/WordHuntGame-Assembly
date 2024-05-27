@@ -9,7 +9,7 @@ This project is a word game developed using assembly language. The game randomly
 4. The game continues in this manner.
 
 
-# Kelime Oyunu
+# KelimeBulmaOyunu-Assembly
 
 Bu proje, assembly dili kullanarak geliştirilmiş bir kelime oyunudur. Kullanıcının karşısına belirli bir dizi içerisindeki kelimelerde bulunan harfler rastgele sıralanır ve kullanıcıdan bu harflerle oluşturulabilecek bir kelime yazması istenir. Eğer girilen kelime dizide varsa, puan tablosu (LCD ekran) 1 puan artar.
 
